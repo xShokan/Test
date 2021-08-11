@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T03:19:21.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Q5J1d00Gly3P7jHxcLIu" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T17:23:43.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="71We6JuO0vEun9lnEho5" version="14.9.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2476" dy="1550" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1250" dy="864" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2290,6 +2290,33 @@
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-43" value="发送NMT_Challenge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1675" y="2106" width="121" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="WskC2XmdpSsV0xAiEAmV-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-46" target="WskC2XmdpSsV0xAiEAmV-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WskC2XmdpSsV0xAiEAmV-46" value="UControlChannel::ReceiveBunch" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1403.75" y="2255" width="218.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="WskC2XmdpSsV0xAiEAmV-47" value="解码，如果是NMT_Login，则成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1653.5" y="2287" width="192" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="WskC2XmdpSsV0xAiEAmV-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-49" target="WskC2XmdpSsV0xAiEAmV-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WskC2XmdpSsV0xAiEAmV-49" value="UWorld::NotifyControlMessage" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1403.75" y="2337" width="218.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="WskC2XmdpSsV0xAiEAmV-53" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-50" target="WskC2XmdpSsV0xAiEAmV-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WskC2XmdpSsV0xAiEAmV-50" value="AGameModeBase::PreLogin" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="2412" width="204" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="WskC2XmdpSsV0xAiEAmV-51" value="发送NMT_Welcom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="2462" width="110" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="WskC2XmdpSsV0xAiEAmV-52" value="UWorld::WelcomePlayer" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="2485" width="204" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
