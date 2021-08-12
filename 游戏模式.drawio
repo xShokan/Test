@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T17:23:43.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="71We6JuO0vEun9lnEho5" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-12T17:00:04.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="F6MqFDBP8bGJ65qSNINz" version="14.9.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1250" dy="864" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="995" dy="725" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2217,106 +2217,106 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-17" value="UIpNetDriver::TickDispatch" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1424" y="1331" width="178" height="43" as="geometry" />
+          <mxGeometry x="1420.5" y="1694" width="178" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-19" value="检测Client连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1616" y="1343.5" width="89" height="18" as="geometry" />
+          <mxGeometry x="1612.5" y="1706.5" width="89" height="18" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-20" target="WskC2XmdpSsV0xAiEAmV-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-20" value="UIpNetDriver::ProcessConnectionlessPacket" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1374.5" y="1423" width="277" height="43" as="geometry" />
+          <mxGeometry x="1371" y="1786" width="277" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-22" value="处理无连接的包，&lt;br&gt;创建UIpConnection，&lt;br&gt;存到Connection列表里" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1421.5" width="131" height="46" as="geometry" />
+          <mxGeometry x="1666.5" y="1784.5" width="131" height="46" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-23" target="WskC2XmdpSsV0xAiEAmV-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-23" value="UIpConnection::InitRemoteConnection&lt;br&gt;UIpConnection::InitBase" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="1518" width="266" height="43" as="geometry" />
+          <mxGeometry x="1376.5" y="1881" width="266" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-25" value="初始化一些设置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1663" y="1530.5" width="94" height="18" as="geometry" />
+          <mxGeometry x="1659.5" y="1893.5" width="94" height="18" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-26" value="PacketHandler::BeginHandshaking" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1394.5" y="1596" width="238" height="43" as="geometry" />
+          <mxGeometry x="1391" y="1959" width="238" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-27" value="发送握手消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1651.5" y="1611" width="82" height="18" as="geometry" />
+          <mxGeometry x="1648" y="1974" width="82" height="18" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-29" target="WskC2XmdpSsV0xAiEAmV-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-29" value="UIpConnection::ReceiveRawPacket" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1397" y="1726" width="238" height="43" as="geometry" />
+          <mxGeometry x="1393.5" y="2089" width="238" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-30" value="收到客户端消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1657" y="1745" width="94" height="18" as="geometry" />
+          <mxGeometry x="1653.5" y="2108" width="94" height="18" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-31" target="WskC2XmdpSsV0xAiEAmV-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-31" value="UINetConnection::ReceivePacket" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1397" y="1817" width="238" height="43" as="geometry" />
+          <mxGeometry x="1393.5" y="2180" width="238" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-33" value="创建ControlChannel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1655" y="1839" width="117" height="18" as="geometry" />
+          <mxGeometry x="1651.5" y="2202" width="117" height="18" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-34" target="WskC2XmdpSsV0xAiEAmV-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-34" value="UChannel::ReceiveRawBunch" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1413.75" y="1903" width="204.5" height="43" as="geometry" />
+          <mxGeometry x="1410.25" y="2266" width="204.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-35" target="WskC2XmdpSsV0xAiEAmV-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-35" value="UControlChannel::ReceiveBunch" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1406.75" y="1981" width="218.5" height="43" as="geometry" />
+          <mxGeometry x="1403.25" y="2344" width="218.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-36" value="解码，如果收到NMT_Hello，则成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1651.5" y="2013" width="202" height="18" as="geometry" />
+          <mxGeometry x="1648" y="2376" width="202" height="18" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-40" target="WskC2XmdpSsV0xAiEAmV-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-40" value="UWorld::NotifyControlMessage" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1406.75" y="2063" width="218.5" height="43" as="geometry" />
+          <mxGeometry x="1403.25" y="2426" width="218.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-42" value="UWorld::SendChallengeControlMessage" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1392" y="2136" width="248" height="43" as="geometry" />
+          <mxGeometry x="1388.5" y="2499" width="248" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-43" value="发送NMT_Challenge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1675" y="2106" width="121" height="18" as="geometry" />
+          <mxGeometry x="1671.5" y="2469" width="121" height="18" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-46" target="WskC2XmdpSsV0xAiEAmV-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-46" value="UControlChannel::ReceiveBunch" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1403.75" y="2255" width="218.5" height="43" as="geometry" />
+          <mxGeometry x="1400.25" y="2618" width="218.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-47" value="解码，如果是NMT_Login，则成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1653.5" y="2287" width="192" height="18" as="geometry" />
+          <mxGeometry x="1650" y="2650" width="192" height="18" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-49" target="WskC2XmdpSsV0xAiEAmV-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-49" value="UWorld::NotifyControlMessage" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1403.75" y="2337" width="218.5" height="43" as="geometry" />
+          <mxGeometry x="1400.25" y="2700" width="218.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-53" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WskC2XmdpSsV0xAiEAmV-50" target="WskC2XmdpSsV0xAiEAmV-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-50" value="AGameModeBase::PreLogin" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1411" y="2412" width="204" height="43" as="geometry" />
+          <mxGeometry x="1407.5" y="2775" width="204" height="43" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-51" value="发送NMT_Welcom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1675" y="2462" width="110" height="18" as="geometry" />
+          <mxGeometry x="1671.5" y="2825" width="110" height="18" as="geometry" />
         </mxCell>
         <mxCell id="WskC2XmdpSsV0xAiEAmV-52" value="UWorld::WelcomePlayer" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1411" y="2485" width="204" height="43" as="geometry" />
+          <mxGeometry x="1407.5" y="2848" width="204" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
